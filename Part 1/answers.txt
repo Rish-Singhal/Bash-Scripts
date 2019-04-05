@@ -1,0 +1,50 @@
+1>mkdir Assignment1
+2>cd Assignment1
+3>mkdir a b b/e b/e/f
+4>cd a
+5>ls -l ~ >file.txt
+6>mv file.txt file1.txt
+7>cut -d" " -f5 file1.txt
+9>cd ../b/e/f
+10>pwd
+11>cd -
+12>mv file1.txt file1.txt
+13>cd ..
+14>cat >file3.txt
+15>head -n 10 file3.txt
+16>tail -n 13 file3.txt | head -n 9
+17>wc -w file3.txt
+18>echo "hello world"
+19>whereis ls
+20>history | tail -n 5
+21>touch lab1.txt lab2.txt lab3.txt lab4.txt lab5.txt
+22>rename txt c lab*.txt
+23> tree .
+24> ls -ltr
+25> ls -lS
+26> find . -maxdepth 2
+27>find $PWD/*.txt -maxdepth 1
+28>clear
+29>w
+30>ping -c1 intranet.iiit.ac.in
+31>ssh rishabh.singhal@mirage.iiit.ac.in
+32>ps ax | grep sshd
+33>touch server.txt
+34>exit
+35>ps aux|cut -d" " -f1 >pid.txt
+36>df -h
+37>cat /usr/share/dict/words|grep work|wc -w
+38>scp -r ~/Assignment1 rishabh.singhal@mirage.iiit.ac.in:~/
+39>tar -zcvf Assignment1_20171213.tar.gz ~/Assignment1
+
+--------------------------BONUS ---------------------------------
+
+1>uname -a
+2>cal 2017
+3>date +"%F"
+4>wall hello world
+5>seq 0 8 100000 | egrep "4|5" |grep -v "6"
+6>ifconfig |grep inet
+7>cp `find ~/ -newermt "2017-09-17" ` BACKUP1/
+8>find . -mtime -7|xargs -i @sed -i 's/this week/next week/g' @
+9>cat user*.txt>User.txt

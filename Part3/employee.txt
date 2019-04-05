@@ -1,0 +1,8 @@
+1,Shivam,1001
+2,Rahul,999
+9,Arjun,800
+9,Rahul,700
+9,Rahul,700
+9,rahul,700
+9,Shyam,1700
+800,Tomato,770

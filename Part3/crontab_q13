@@ -1,0 +1,1 @@
+23 8 14-21 */2 * [ "$(date '+%a')" = "Wed" ] && find . -mtime -3 -print | xargs -d"\n" -I{} scp {} rishabh.singhal@mirage.iiit.ac.in:~/
