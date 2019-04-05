@@ -1,0 +1,1 @@
+grep "^.*$"  $1 |awk '{if($3=="apathy"){$3="empathy";} print $0;}' | sed 's\x\x\g'

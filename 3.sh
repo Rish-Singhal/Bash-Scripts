@@ -1,0 +1,1 @@
+cat $1 | awk '{ split($0,chars,""); for(i=1;i<=length($0);i++){if(i<=4)printf("%s",chars[i]);else printf("#");}printf("\n");}' 
